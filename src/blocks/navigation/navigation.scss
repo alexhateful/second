@@ -1,0 +1,72 @@
+/**
+ * Styles for the navigation block.
+ */
+ .navigation {
+    // Selector styles
+    // TODO: add code
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-right: 25px;
+        line-height: 67px;
+        &:hover{
+            color: #ea0c0c;
+            font-weight: 900;
+            transition: .3s;
+        }
+    }
+    .nav_logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    .nav_menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .nav_list{
+        display: flex;
+    }
+
+    .nav_icons{
+        display: flex;
+        margin-top: 28px;
+    }
+
+    .btn-nav{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-right: 15px;
+    }
+    .fas{
+        background-color: none;
+        font-size: 18px;
+        width: 10px;
+    }
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+
+    // Bem modifiers
+    // TODO: add code
+}

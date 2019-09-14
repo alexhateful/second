@@ -1,0 +1,12 @@
+//-
+    name: copyrights
+    description: Markup for the copyrights block
+    arguments:
+        - {object} props - block properties
+
+mixin copyrights(data = {})
+    .copyrights&attributes(attributes)
+        .container
+            .row
+                .col-12.copy
+                    p.title= data.title

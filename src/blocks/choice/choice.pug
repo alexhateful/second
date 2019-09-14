@@ -1,0 +1,20 @@
+//-
+    name: choice
+    description: Markup for the choice block
+    arguments:
+        - {object} props - block properties
+
+mixin choice(data = {})
+    .choice&attributes(attributes)
+        .container
+            .row
+                .col-6
+                    .choice__panel
+                        img(src="./img/forHer.jpg", alt="").choice__image
+                        a.choice__link(href="#")
+                            span.choice__text= data.she
+                .col-6
+                    .choice__panel
+                        img(src="./img/forHim.jpg", alt="", srcset="./img/forHim@2.jpg 2x").choice__image
+                        a.choice__link(href="#")
+                            span.choice__text= data.he

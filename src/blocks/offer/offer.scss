@@ -1,0 +1,54 @@
+/**
+ * Styles for the offer block.
+ */
+.offer {
+    // Selector styles
+    // TODO: add code
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    // @media queries
+    // TODO: add code
+    
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+    
+    // Nested selectors
+    // TODO: add code
+    
+    // BEM elements
+    // TODO: add code
+    
+    .offer_title{
+        text-align: center;
+        color: #201c37;
+        font-family: 'Archivo';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 64px;
+        margin: 20px 0;
+    }
+    
+    .offer_slider{
+        display: inline;
+        overflow: hidden;
+    }
+
+    .offer_slides{
+        height: 356px;
+        padding-left: 50px;
+    }
+
+    .descr{
+        width: 250px;
+        margin-top: 15px;
+    }
+
+    .slick-dots{
+        display: flex;
+        justify-content: center;
+
+    }
+    // Bem modifiers
+    // TODO: add code
+}
